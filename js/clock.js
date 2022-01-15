@@ -185,7 +185,7 @@ function clock() {
   clock(); 
 
     // Invoking add() function when user click on set time button.
-    // added addEventListener to make this function work.
+    // added addEventListener to make this function work on click.
     const setButton = document.querySelector('#btn_1');
     setButton.addEventListener('click', () => {
         add();
